@@ -12,7 +12,7 @@
 	<link rel='icon' type='image/x-icon' href='assets/favicon/favicon.ico'>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%7CRaleway">
 	<link rel="stylesheet" href="assets/styles/style.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -58,40 +58,40 @@
 		<p class="skills-description">I am comfortable with a wide range of programming technologies.</p>
 		<div class="skills">
 			<figure class="flex-item">
-				<i class="devicon-javascript-plain"></i><figcaption>JavaScript</figcaption>
+				<i class="devicon-javascript-plain colored"></i><figcaption>JavaScript</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-html5-plain"></i><figcaption>HTML5</figcaption>
+				<i class="devicon-typescript-plain colored"></i><figcaption>TypeScript</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-css3-plain"></i><figcaption>CSS3</figcaption>
+				<i class="devicon-react-plain colored"></i><figcaption>React</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-php-plain"></i><figcaption>PHP</figcaption>
+				<i class="devicon-html5-plain colored"></i><figcaption>HTML5</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-java-plain"></i><figcaption>Java</figcaption>
+				<i class="devicon-css3-plain colored"></i><figcaption>CSS3</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-csharp-plain"></i><figcaption>C#</figcaption>
+				<i class="devicon-nodejs-plain colored"></i><figcaption>Node.js</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-swift-plain"></i><figcaption>Swift</figcaption>
+				<i class="devicon-java-plain colored"></i><figcaption>Java</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-mysql-plain"></i><figcaption>MySQL</figcaption>
+				<i class="devicon-c-plain colored"></i><figcaption>C</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-react-original"></i><figcaption>React</figcaption>
+				<i class="devicon-mysql-plain colored"></i><figcaption>MySQL</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-laravel-plain"></i><figcaption>Laravel</figcaption>
+				<i class="devicon-firebase-plain colored"></i><figcaption>Firebase</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-bootstrap-plain"></i><figcaption>Bootstrap</figcaption>
+				<i class="devicon-mocha-plain colored"></i><figcaption>Mocha</figcaption>
 			</figure>
 			<figure class="flex-item">
-				<i class="devicon-jquery-plain"></i><figcaption>jQuery</figcaption>
+				<i class="devicon-git-plain colored"></i><figcaption>Git</figcaption>
 			</figure>
 		</div>
 	</section>
@@ -99,7 +99,92 @@
 
 	<section id="work" class="work">
 		<h3 class="section-heading">Work</h3>
-
+		
+		<!-- InsightUBC -->
+		<div class="modal fade project-6" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">InsightUBC Querying</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="project-content">
+							<div class="project-duration-client">
+								<p><span>Duration</span><br/>January 2022 - April 2022</p>
+								<p><span>Client</span><br/>School Project: UBC</p>
+							</div>
+							<p class="project-summary">
+								<span>Summary</span><br/>
+								Worked with one other developer on this term-long (4 months) project. The overall goal was to provide effective querying of UBC metadata relating to courses, prerequisites, past averages, room scheduling, and timetable creation.
+								<br/><br/>
+								Full-stack application split into four sprints:
+								<table>
+									<tr>
+										<td>1. <b>Test-driven Development:</b></td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<td>Mocha testing environment + Chai expectations</td>
+									</tr>
+									<tr>
+										<td>2. <b>Server-side Development:</b></td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<td>Parsing dataset + Querying using EBNF</td>
+									</tr>
+									<tr>
+										<td>3. <b>Data Expansion:</b></td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<td>Extend previous implementations to support room types</td>
+									</tr>
+									<tr>
+										<td>4. <b>Client-side Development:</b></td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<td>User stories + REST API</td>
+									</tr>
+								</table>
+							</p>
+							<p class="project-contributions">
+								<span>My Contributions</span><br/>
+								&bull;&nbsp;&nbsp;Test-driven development practices using Mocha and Chai as the basis for our testing environment<br/>
+								&bull;&nbsp;&nbsp;Responsible for reading and parsing UBC's courses dataset containing over 60,000 files in raw JSON form<br/>
+								&bull;&nbsp;&nbsp;Bootstrapped our frontend in React, linking server-side endpoints to our user interface<br/>
+								&bull;&nbsp;&nbsp;Organized and maintained sprint issues and pull requests through GitHub
+							</p>
+							<p class="project-technologies">
+								<span>Tech Stack</span><br/>
+								TypeScript, React, Mocha, Chai, Node, Express
+							</p>
+						</div>
+						<hr/>
+						<div class="responsive">
+							<div class="project-gallery">
+								<a target="_blank" href="assets/images/insightubc/app.png">
+									<img src="assets/images/insightubc/app.png" alt="Application" width="600" height="400">
+								</a>
+								<div class="project-desc">Application</div>
+							</div>
+						</div>
+						<div class="responsive">
+							<div class="project-gallery">
+								<a target="_blank" href="assets/images/insightubc/query-results.png">
+									<img src="assets/images/insightubc/query-results.png" alt="Sample Query Results" width="600" height="400">
+								</a>
+								<div class="project-desc">Sample Query Results</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="modal-footer">
+						<div class="mr-auto">
+							<a class="btn btn-info" href="https://sites.google.com/view/ubc-cpsc310-21w2-intro-to-se/project?authuser=0" target="_blank" role="button"><i class="fas fa-book"></i>&nbsp;&nbsp;Specifications</a>
+						</div>
+						<button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		<!-- VIDC -->
 		<div class="modal fade project-5" tabindex="-1" role="dialog" aria-hidden="true">
 			<div class="modal-dialog modal-lg">
@@ -126,7 +211,7 @@
 								&bull;&nbsp;&nbsp;Educated client on specific admin and guest use cases
 							</p>
 							<p class="project-technologies">
-								<span>Technologies</span><br/>
+								<span>Tech Stack</span><br/>
 								WordPress, Elementor, PHP, HTML5, CSS3
 							</p>
 						</div>
@@ -189,7 +274,7 @@
 						<div class="project-content">
 							<div class="project-duration-client">
 								<p><span>Duration</span><br/>October 2017 - December 2017</p>
-								<p><span>Client</span><br/>School Project</p>
+								<p><span>Client</span><br/>School Project: BCIT</p>
 							</div>
 							<p class="project-summary">
 								<span>Summary</span><br/>
@@ -206,7 +291,7 @@
 								&bull;&nbsp;&nbsp;Incorporated aspects of agile development (incremental releases, scrum stand-up meetings, code reviews)
 							</p>
 							<p class="project-technologies">
-								<span>Technologies</span><br/>
+								<span>Tech Stack</span><br/>
 								Expo, React Native, NativeBase, React Navigation, axios, GitLab
 							</p>
 						</div>
@@ -289,7 +374,7 @@
 								&bull;&nbsp;&nbsp;Essential project documentation (scope, stage plans, status reports, risks and issues)
 							</p>
 							<p class="project-technologies">
-								<span>Technologies</span><br/>
+								<span>Tech Stack</span><br/>
 								React, Teamwork Projects API, Laravel, PHP, jQuery, Bootstrap, Git, ZenHub
 							</p>
 						</div>
@@ -365,7 +450,7 @@
 								&bull;&nbsp;&nbsp;Outlined and delivered approaches to risk management
 							</p>
 							<p class="project-technologies">
-								<span>Technologies</span><br/>
+								<span>Tech Stack</span><br/>
 								Laravel, PHP, HTML5/CSS3, JavaScript, MySQL, jQuery, Bootstrap, Git, Asana, ZenHub
 							</p>
 						</div>
@@ -429,7 +514,7 @@
 						<div class="project-content">
 							<div class="project-duration-client">
 								<p><span>Duration</span><br/>March 2017 - April 2017</p>
-								<p><span>Client</span><br/>School Project</p>
+								<p><span>Client</span><br/>School Project: BCIT</p>
 							</div>
 							<p class="project-summary">
 								<span>Summary</span><br/>
@@ -443,7 +528,7 @@
 								&bull;&nbsp;&nbsp;Provided UI/UX tweaks and overall clean up towards the final sprint
 							</p>
 							<p class="project-technologies">
-								<span>Technologies</span><br/>
+								<span>Tech Stack</span><br/>
 								Laravel, PHP, HTML5/CSS3, JavaScript, MySQL, jQuery, Bootstrap, Git, ZenHub
 							</p>
 						</div>
@@ -486,7 +571,20 @@
 		</div>
 
 		<ul class="grid">
-			<li class="project-list-large" style="background-color: #e5a765;" data-toggle="modal" data-target=".project-5">
+			<li class="project-list-small" style="background-color: #DFA67B;" data-toggle="modal" data-target=".project-6">
+				<div class="project-item">
+					<h2>InsightUBC Querying</h2>
+					<p class="section-project-slogan">Effective querying of metadata based on The University of British Columbia.</p>
+				</div>
+				<div class="section-project-technologies">
+					<span class="badge badge-dark">TypeScript</span>
+					<span class="badge badge-dark">Mocha</span>
+					<span class="badge badge-dark">Chai</span>
+					<span class="badge badge-dark">React</span>
+					<span class="badge badge-dark">Node</span>
+				</div>
+			</li>
+			<li class="project-list-small" style="background-color: #A2B29F;" data-toggle="modal" data-target=".project-5">
 				<div class="project-item">
 					<h2>VIDC Website Overhaul</h2>
 					<p class="section-project-slogan">Complete website redesign and development for a medical centre located in Burrard Street, Vancouver.</p>
@@ -497,7 +595,7 @@
 					<span class="badge badge-dark">PHP</span>
 				</div>
 			</li>
-			<li class="project-list-small" style="background-color: #B4DC7F;" data-toggle="modal" data-target=".project-4">
+			<li class="project-list-small" style="background-color: #FFF2CC;" data-toggle="modal" data-target=".project-4">
 				<div class="project-item">
 					<h2>Potluck Event Planner</h2>
 					<p class="section-project-slogan">Ultimate event management experience solving common food wastage problems.</p>
@@ -508,7 +606,7 @@
 					<span class="badge badge-dark">NativeBase</span>
 				</div>
 			</li>
-			<li class="project-list-small" style="background-color: #F3DFA2" data-toggle="modal" data-target=".project-3">
+			<li class="project-list-small" style="background-color: #FFD966;" data-toggle="modal" data-target=".project-3">
 				<div class="project-item">
 					<h2>Bandwidth Planner</h2>
 					<p class="section-project-slogan">Sleek, quick and responsive alternatives for managing work-related tasks.</p>
@@ -519,7 +617,7 @@
 					<span class="badge badge-dark">Teamwork API</span>
 				</div>
 			</li>
-			<li class="project-list-small" style="background-color: #7EBDC2" data-toggle="modal" data-target=".project-2">
+			<li class="project-list-small" style="background-color: #D0AF84;" data-toggle="modal" data-target=".project-2">
 				<div class="project-item">
 					<h2>OVCMT Scheduling Application</h2>
 					<p class="section-project-slogan">Course/Instructor management and in-depth schedule generation through drag and drop features.</p>
@@ -530,7 +628,7 @@
 					<span class="badge badge-dark">jQuery</span>
 				</div>
 			</li>
-			<li class="project-list-small" style="background-color: #c2837e" data-toggle="modal" data-target=".project-1">
+			<li class="project-list-small" style="background-color: #E0DECA;" data-toggle="modal" data-target=".project-1">
 				<div class="project-item">
 					<h2>Split</h2>
 					<p class="section-project-slogan">Track personal expenses individually or among friends.</p>
